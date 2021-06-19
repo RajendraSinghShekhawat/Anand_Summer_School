@@ -423,7 +423,7 @@ button:focus {
 }
 
 #hero-area .contents {
-  padding: 200px 0 130px;
+  padding: 150px 0 280px;
 }
 
 #hero-area .contents h1 {
@@ -1191,17 +1191,17 @@ ul.custom >:last-child {
 /* ==========================================================================
   14. Contact Us
   ========================================================================== */
-.contact-us h3 {
-  font-size: 36px;
-  margin-bottom: 45px;  
+.contact-block h3 {
+  font-size: 22px;
+  margin-bottom: 18px;  
  text-align: center;
 }
 
-.contact-us p {
+.contact-block p {
   font-size: 18px;
 }
 
-.contact-us p span {
+.contact-block p span {
   color: #2b5bb5;
   padding-left: 10px;
 }
