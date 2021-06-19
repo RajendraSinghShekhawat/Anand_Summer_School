@@ -510,7 +510,7 @@ button:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link {
   color: #fff;
-  padding: 0 22px;
+  padding: 0 12px;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 40px;
@@ -782,7 +782,7 @@ button:focus {
   8. Portfolio Section
    ========================================================================== */
 #portfolios .mix {
-  padding: 10px;
+  padding: 0px;
 }
 
 #portfolios .portfolio-item .shot-item {
@@ -824,7 +824,7 @@ button:focus {
 }
 
 .shot-item {
-  margin-right: 15px;
+  margin-right: 5px;
   border-radius: 4px;
   background: #fff;
   position: relative;
