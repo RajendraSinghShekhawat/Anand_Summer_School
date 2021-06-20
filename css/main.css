@@ -74,6 +74,13 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 1px;
 }
 
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -383,6 +390,14 @@ button:focus {
   position: fixed;
   bottom: 18px;
   right: 15px;
+}
+
+.side-button {
+	transform: rotate(-90deg);
+  display: block;
+  position: fixed;
+  bottom: 45%;
+  right: -55px;
 }
 
 .back-to-top i {
@@ -781,6 +796,10 @@ button:focus {
 /* ==========================================================================
   8. Portfolio Section
    ========================================================================== */
+#01 #02{
+  display: none;
+}
+
 #portfolios .mix {
   padding: 0px;
 }
@@ -806,7 +825,7 @@ button:focus {
 
 .controls .btn {
   text-transform: uppercase;
-  margin: 2px;
+  margin: 0 10px 10px;
 }
 
 .controls:hover {
@@ -1029,12 +1048,14 @@ button:focus {
   transition: 0.5s;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
-  background: #2b5bb5;
   overflow: hidden;
 }
 
 .single-team img {
   width: 100%;
+  height: 100%;
+  border: 3px solid #2b5bb5;
+  border-radius: 50%;
 }
 
 .single-team .team-inner {
@@ -1176,6 +1197,7 @@ button:focus {
 ul.custom li, ol.custom li 
 {
 	margin-top: 5px !important;
+	font-weight: 550;
 	font-size: 1.1em; 
 	text-align: left; 
 	color: #4e4e4f;
