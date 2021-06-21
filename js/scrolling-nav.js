@@ -19,22 +19,54 @@ $(function() {
 });
 
 
-function myFunction(id) {	
-for (let i = 1; i < 12; i++) {
-	if(i==id){
- document.getElementById(i).style.display = "block";
-	}
-	else{
- document.getElementById(i).style.display = "none";
-	}
-}
 
-}
-//  var x = document.getElementById(id);
-//  if (x.style.display === "none") {
-//    x.style.display = "block";
-//  } else {
-//    x.style.display = "none";
-//  }
-//}
 
+$('#1').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/1.jpg");
+ });
+$('#2').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/2.jpg");
+ });
+$('#3').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/3.jpg");
+ });
+$('#4').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/4.jpg");
+ });
+$('#5').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/5.jpg");
+ });
+$('#6').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/6.jpg");
+ });
+$('#7').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/7.jpg");
+ });
+$('#8').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/8.jpg");
+ });
+$('#9').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/9.jpg");
+ });
+$('#10').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/10.jpg");
+ });
+$('#11').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/11.jpg");
+ });
+$('#12').click(function () {
+        $(".spanloader").hide();
+        $("#my_image").attr("src", "img/courses/12.jpg");
+ });
+	
