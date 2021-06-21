@@ -23,13 +23,7 @@
     <link rel="stylesheet" href="css/responsive.css">  
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
-<script language='javascript'>
-function happycode(){
-for (let i = 1; i < 12; i++) {
- document.getElementById(i).style.display = "none";
-}
-}
-</script>
+
   </head>
   <body>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScWKB9ufzLke5LE9wWPgWxH_BcLTKLj415lNebdPr_P4_WFOw/viewform" class="side-button btn btn-common "> Register Now</a>
@@ -119,7 +113,7 @@ for (let i = 1; i < 12; i++) {
               <p class="lead  wow fadeIn" data-wow-duration="2000ms" data-wow-delay="400ms">Last date of Registration July 03, 2021  </p>
 			  <h5>Exciting prizes and awards for the course toppers</h5>
 			  <div class="top-circle">
-			  <h5><br>Fee <br>Rs 50/</h5>
+			  <h5><br>Fee <br>Rs 50/-</h5>
 			  </div>
 					
               <!-- <a href="#features" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Register Now</a>-->
@@ -213,40 +207,40 @@ for (let i = 1; i < 12; i++) {
           <div class="col-md-12">
             <!-- Portfolio Controller/Buttons "active btn btn-common" -->
             <div class="controls text-center">
-              <a class="btn btn-common" onclick="myFunction('1')">
+              <a class="btn btn-common" type="button" id="1">
                 Multi-storied Structure Designing  
               </a>
-              <a class="btn btn-common" onclick="myFunction('2')">
+              <a class="btn btn-common" type="button" id="2">
                 Design of Dams 
               </a>
-              <a class="btn btn-common" onclick="myFunction('3')">
+              <a class="btn btn-common" type="button" id="3">
                 Design of Bridges 
               </a>
-              <a class="btn btn-common" onclick="myFunction('4')">
+              <a class="btn btn-common" type="button" id="4">
                 Solar Energy 
               </a>
-              <a class="btn btn-common" onclick="myFunction('5')">
+              <a class="btn btn-common" type="button" id="5">
                 Utility Projects Based on Design & Simulation 
               </a>
-              <a class="btn btn-common" onclick="myFunction('6')">
+              <a class="btn btn-common" type="button" id="6">
                 Mechanical Engine Vs Human Engine 
               </a>
-              <a class="btn btn-common" onclick="myFunction('7')">
+              <a class="btn btn-common" type="button" id="7">
                 CAD Designing 
               </a>
-              <a class="btn btn-common" onclick="myFunction('8')">
+              <a class="btn btn-common" type="button" id="8">
                 Advanced Manufacturing & 3D Printing  
               </a>
-              <a class="btn btn-common" onclick="myFunction('10')">
+              <a class="btn btn-common" type="button" id="9">
                 Goal Setting 
               </a>
-              <a class="btn btn-common" onclick="myFunction('11')">
+              <a class="btn btn-common" type="button" id="10">
                 Time /Stress Mgt 
               </a>
-              <a class="btn btn-common" onclick="myFunction('12')">
+              <a class="btn btn-common" type="button" id="11">
                 Branding Yourself 
               </a>
-              <a class="btn btn-common" onclick="myFunction('01')">
+              <a class="btn btn-common" type="button" id="12">
                 Programming Fundamentals (Python) 
               </a>
             </div>
@@ -257,20 +251,11 @@ for (let i = 1; i < 12; i++) {
 		  
           <div id="portfolio" class="row">		  
 		  
-          <div class="col-lg-12 col-md-12 col-sm-12 mix design development" id="1">
-            <div class="item-boxes wow fadeInDown" >
-				<img style="width: 100%;" src="img/courses/Banner-2.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-12 col-md-12 col-sm-12 mix design development" id="2">
-            <div class="item-boxes wow fadeInDown" >
-				<img style="width: 100%;" src="img/courses/Banner-2.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-12 col-md-12 col-sm-12 mix design development" id="3">
-            <div class="item-boxes wow fadeInDown" >
-				<img style="width: 100%;" src="img/courses/Banner-2.jpg" alt="">
-            </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 mix design development">
+            <div class="item-boxes wow fadeInDown">
+			<span>
+			<img style="width: 100%;" id="my_image" src="img/courses/0.png" /></span>
+			</div>
           </div>
 		  
 		  </div>
@@ -286,7 +271,7 @@ for (let i = 1; i < 12; i++) {
     <section id="blog" class="section">
       <!-- Container Starts -->
       <div class="container">
-        <div class="section-header">          
+        <div class="section-header" >          
           <h2 class="section-title" style="font-size: 2.5em; text-align: center;">Guidelines for students for Anand Summer School</h2>
           <hr class="lines">  
 			<ul class="custom" >			
@@ -298,7 +283,7 @@ for (let i = 1; i < 12; i++) {
 			</li><li>70% of attendance is mandatory, based on attendance E-certificates and award will be provided to participants. 
 			</li><li>There are 12 courses available out of which participants can choose any 02 courses maximum. 
 			</li><li>These courses will enhance your skills and it will enrich your perspective areas as well. 
-			</li><li>The Registration fees of each course is Rs-50/-.  
+			</li><li>The Registration fees of each course is Rs 50/-.  
 			</li><li>Last date of Registration date is July 03, 2021. 
 			</li><li>All important and related information will be updated on the website time to time. 
 			</li><li>There will be one best performer award in each course category. E-Certification for all the participants.
@@ -308,7 +293,6 @@ for (let i = 1; i < 12; i++) {
 		  </ul>
 		  </div>
         </div>
-      </div>
     </section>
     <!-- blog Section End -->
 
@@ -343,7 +327,7 @@ for (let i = 1; i < 12; i++) {
                 <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">You can download contents in pdf format using below links</p>
 
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-4 col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
               <div >
                 <a href="Document/Guidelines.pdf" class="video-popup wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s"><i class="lnr lnr-download"></i></a>
@@ -352,7 +336,7 @@ for (let i = 1; i < 12; i++) {
               <p></p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-4 col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
               <div >
                 <a href="Document/Prospectus-2021-22.pdf" class="video-popup wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s"><i class="lnr lnr-download"></i></a>
@@ -361,7 +345,7 @@ for (let i = 1; i < 12; i++) {
               <p></p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-4 col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
               <div >
                 <a href="#.pdf" class="video-popup wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s"><i class="lnr lnr-download"></i></a>
@@ -408,7 +392,7 @@ for (let i = 1; i < 12; i++) {
           <p class="section-subtitle">Committee members of Anand Summer School Program</p>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 ">
+          <div class="col-lg-3 col-md-3 col-sm-6 ">
             <div class="single-team">
               <img src="img/team/Prof Praveen Sir.jpg" alt="">
               <div class="team-details">
@@ -419,7 +403,7 @@ for (let i = 1; i < 12; i++) {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 ">
+          <div class="col-lg-3 col-md-3 col-sm-6 ">
             <div class="single-team">
               <img src="img/team/Prof.Anil Dhawan.jpg" alt="">
               <div class="team-details">
@@ -430,18 +414,7 @@ for (let i = 1; i < 12; i++) {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="single-team">
-              <img src="img/team/Faheem Mam.jpeg" alt="">
-              <div class="team-details">
-                <div class="team-inner">
-                  <h4 class="team-title">Dr. Faheem Naqvi </h4>
-                  <p>Promotion and activity</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-6">
             <div class="single-team">
               <img src="img/team/Riddhi mam.jpg" alt="">
               <div class="team-details">
@@ -452,7 +425,18 @@ for (let i = 1; i < 12; i++) {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="single-team">
+              <img src="img/team/Faheem Mam.jpeg" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Dr. Faheem Naqvi </h4>
+                  <p>Promotion and activity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
             <div class="single-team">
               <img class="img-fulid" src="img/team/Dharmendra Sir.JPG" alt="">
               <div class="team-details">
@@ -463,7 +447,7 @@ for (let i = 1; i < 12; i++) {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-6">
             <div class="single-team">
               <img class="img-fulid" src="img/team/Sanjog Sir.jpg" alt="">
               <div class="team-details">
@@ -474,7 +458,7 @@ for (let i = 1; i < 12; i++) {
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-6">
             <div class="single-team">
               <img class="img-fulid" src="img/team/Rajendra Singh.jpg" alt="">
               <div class="team-details">
@@ -620,9 +604,6 @@ for (let i = 1; i < 12; i++) {
     <script src="js/jquery.magnific-popup.min.js"></script>    
     <script src="js/waypoints.min.js"></script>     
     <script src="js/main.js"></script>
-	<script>
-	window.onload=myFunction;
-	</script>
     <!-- <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script> --> 
 
