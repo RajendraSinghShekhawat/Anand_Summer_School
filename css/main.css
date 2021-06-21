@@ -419,6 +419,7 @@ button:focus {
 /* ==========================================================================
    3. Hero Area
    ========================================================================== */
+
 #hero-area {
   background: url(../img/hero-area.jpg) fixed no-repeat;
   background-size: cover;
@@ -442,18 +443,36 @@ button:focus {
 }
 
 #hero-area .contents h1 {
+	font-family: 'Days One', sans-serif;
   color: #fff;
-  font-size: 42px;
+  font-size: 55px;
   font-weight: 700;
+  margin-bottom: 20px;
+}
+#hero-area .contents h5 {
+	font-family: 'Days One', sans-serif;
+  color: #fff; /*#44fcbf*/
+  font-size: 27px;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
 #hero-area .contents p {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 400;
-  line-height: 20px;
+  font-size: 25px;
+  color: #fbff45;
+  font-weight: 600;
+  line-height: 30px;
   letter-spacing: 0.5px;
+}
+.top-circle{
+	transform: rotate(-45deg);
+  border: 3px solid #2b5bb5;
+	border-color: #fff;
+	background-color: #2b5bb5;
+	width:130px; 
+	height:130px;
+	border-radius: 50%;
+	float: right;
 }
 
 #hero-area .contents .btn {
@@ -1204,7 +1223,7 @@ ul.custom li, ol.custom li
 	padding-left: 8px;
 	list-style-position: outside;
 	list-style-type: "\1F44D";
-	list-style-image: url('/arrow.gif');
+	list-style-type: square;
 }
 ul.custom >:last-child {
 	padding-bottom: 5px !important;
