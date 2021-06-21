@@ -20,23 +20,16 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">    
-    <link rel="stylesheet" href="css/responsive.css"> <!-- 
+    <link rel="stylesheet" href="css/responsive.css">  
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
 <script language='javascript'>
 function happycode(){
-document.getElementById('01').style.display = "none";
-document.getElementById('02').style.display = "none";
-document.getElementById('03').style.display = "none";
-document.getElementById('04').style.display = "none";
-document.getElementById('05').style.display = "none";
-document.getElementById('06').style.display = "none";
-document.getElementById('07').style.display = "none";
-document.getElementById('08').style.display = "none";
-document.getElementById('09').style.display = "none";
-document.getElementById('10').style.display = "none";
-document.getElementById('11').style.display = "none";
-document.getElementById('12').style.display = "none";
+for (let i = 1; i < 12; i++) {
+ document.getElementById(i).style.display = "none";
 }
-</script>-->
+}
+</script>
   </head>
   <body>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScWKB9ufzLke5LE9wWPgWxH_BcLTKLj415lNebdPr_P4_WFOw/viewform" class="side-button btn btn-common "> Register Now</a>
@@ -62,19 +55,19 @@ document.getElementById('12').style.display = "none";
                 <a class="nav-link page-scroll" href="#services">Summer School</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#features">Registration</a>
+                <a class="nav-link page-scroll" href="#portfolios">Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#portfolios">Courses</a>
+                <a class="nav-link page-scroll" href="#blog">Guidelines</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#features">Registration</a>
               </li>
 				<li class="nav-item">
 				  <a class="nav-link page-scroll" href="#pricing">Download</a>
 				</li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#team">Committee</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="#blog">Guidelines</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#contact">Contact</a>
@@ -92,19 +85,19 @@ document.getElementById('12').style.display = "none";
               <a class="page-scroll" href="#services">Summer School</a>
             </li>
             <li>
-              <a class="page-scroll" href="#features">Registration</a>
+              <a class="page-scroll" href="#portfolios">Courses</a>
+            </li>
+            <li >
+              <a class="page-scroll" href="#blog">Guidelines</a>
             </li>
             <li>
-              <a class="page-scroll" href="#portfolios">Courses</a>
+              <a class="page-scroll" href="#features">Registration</a>
             </li>
             <li>
               <a class="page-scroll" href="#pricing">Download</a>
             </li>
             <li>
               <a class="page-scroll" href="#team">Committee</a>
-            </li>
-            <li >
-              <a class="page-scroll" href="#blog">Guidelines</a>
             </li>
             <li>
               <a class="page-scroll" href="#contact">Contact</a>
@@ -119,9 +112,16 @@ document.getElementById('12').style.display = "none";
           <div class="col-md-10">
             <div class="contents text-center">
               <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Anand Summer School</h1>
-              <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">For class 10<sup>th</sup> to 12<sup>th</sup> (11<sup>th</sup> and 12<sup>th</sup> only Science students) </p>
+			  <!-- <span style="color: #68dafc">Anand</span>
+			  <span style="color: #ffff38"> Summer</span>
+			  <span style="color: #ff7d81"> School</span></h1>-->
+              <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">For class 10<sup>th</sup> to 12<sup>th</sup> (All streams) </p>
               <p class="lead  wow fadeIn" data-wow-duration="2000ms" data-wow-delay="400ms">Last date of Registration July 03, 2021  </p>
-			  <h5>AWARDS & CASH PRIZES  (15000/- WORTH)</h5>
+			  <h5>Exciting prizes and awards for the course toppers</h5>
+			  <div class="top-circle">
+			  <h5><br>Fee <br>Rs 50/</h5>
+			  </div>
+					
               <!-- <a href="#features" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Register Now</a>-->
             </div>
           </div>
@@ -134,17 +134,19 @@ document.getElementById('12').style.display = "none";
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">About the Summer School</h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s" style="text-align: justify;">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" >
-		  Online summer programs do not mean that students lose their summer. On the contrary, students are able to set their own 
-		  schedule, move at their own pace, and take summer courses wherever they have an internet connection. They can enjoy all 
-		  of the wonderful things that summer offers while also learning full time.<br>
-			This plethora is going to be a major learning platform where students will get deep insights and enhance learning objectives. 
-			Learning has no limit and no barriers therefore we are coming up with this initiative which will provide our students an Extra Edge. 
-			These days we are witnessing a drastic change in career shaping options and we are pretty sure that it is going to give all the 
-			participants time to think and decide about the right career option available. As we already welcome New Education Policy 2020 
-			and we have framed our entire concept with the theme of NEP 2020. Let's come and spark our own creativity.</p>
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">About the Anand Summer School</h2>
+          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+		  We at Anand -ICE , Jaipur   are delighted to extend a warm welcome to the young minds for the exciting journey of Anand Summer School.<br>
+		Anand-ICE, the place where we celebrate excellence and attempt to transform youth into professionals, is amongst the top 10 engineering 
+		colleges in Rajasthan. We firmly believe that no matter the situation , learning can not be affected therefore aiming for contribution 
+		towards society with the help of Anand Summer School. Since inception we have maintained a legacy of learning tradition where young minds 
+		nurture their academic excellence with the help of our great intellectual board of Mentors for nurturing. We are pretty sure that this initiative 
+		of hands-on learning is going to have the feel of "Education with Difference" here in Anand-ICE .This plethora is going to be a major learning 
+		platform where students will get deep insights and enhance learning objectives. Learning has no limit and no barriers therefore we are coming up 
+		with this initiative which will provide our students an Extra Edge. These days we are witnessing a drastic change in career shaping options and 
+		we are pretty sure that it is going to give all the participants time to think and decide about the right career option available. As we already 
+		welcome New Education Policy 2020 and we have framed our entire concept with the theme of NEP 2020. Let's come and spark our own creativity.</p>
         </div>
         <div class="row">
           <div class="col-md-4 col-sm-6">
@@ -171,7 +173,25 @@ document.getElementById('12').style.display = "none";
                 <i class="lnr lnr-clock"></i>
               </div>
               <h4>Dates and Timing:</h4>
-              <p>Starting July 05<sup>th</sup> onwards<br>10 am -04 pm (Monday-Friday)</p>
+              <p>Starting July 05<sup>th</sup> onwards<br>2 hours per day (Monday-Friday)</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
+              <div class="icon">
+                <i class="lnr lnr-license"></i>
+              </div>
+              <h4>Course fee:</h4>
+              <p> Each course fee Rs 50/-</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
+              <div class="icon">
+                <i class="lnr lnr-graduation-hat"></i>
+              </div>
+              <h4>Certificate and prizes:</h4>
+              <p>E-cetificate’s to all the participant,<br>Exciting prizes and awards for the course toppers</p>
             </div>
           </div>
         </div>
@@ -179,27 +199,8 @@ document.getElementById('12').style.display = "none";
     </section>
     <!-- Services Section End -->
 
-    <!-- Features Section Start -->
-    <section id="features" class="section" data-stellar-background-ratio="0.2">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title">Registration</h2>
-          <hr class="lines">
-          <p class="section-subtitle">Join online summer school to learn something new and to upgrade your skills</p>
-			<h2 style="font-size: 1.5em; text-align: center;">Register Yourself by Filling the Form Below</h2>
-		</div>
-        <div >						
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWKB9ufzLke5LE9wWPgWxH_BcLTKLj415lNebdPr_P4_WFOw/viewform?embedded=true" width="100%" height="300px" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
-			
-        </div>
-        <div class="section-header">  
-			<br><h2  style="font-size: 1.5em; text-align: center;">If above form is not visible then <a href="https://docs.google.com/forms/d/e/1FAIpQLScWKB9ufzLke5LE9wWPgWxH_BcLTKLj415lNebdPr_P4_WFOw/viewform" target="_blank">CLICK HERE</a>  to fill registration form</h2>
-		</div>
-      </div>
-    </section>
-    <!-- Features Section End -->    
 
-    <!-- Portfolio Section -->
+    <!-- Portfolio / Course Section -->
     <section id="portfolios" class="section">
       <!-- Container Starts -->
       <div class="container" >
@@ -212,28 +213,28 @@ document.getElementById('12').style.display = "none";
           <div class="col-md-12">
             <!-- Portfolio Controller/Buttons "active btn btn-common" -->
             <div class="controls text-center">
-              <a class="btn btn-common" onclick="myFunction('01')">
+              <a class="btn btn-common" onclick="myFunction('1')">
                 Multi-storied Structure Designing  
               </a>
-              <a class="btn btn-common" onclick="myFunction('02')">
+              <a class="btn btn-common" onclick="myFunction('2')">
                 Design of Dams 
               </a>
-              <a class="btn btn-common" onclick="myFunction('03')">
+              <a class="btn btn-common" onclick="myFunction('3')">
                 Design of Bridges 
               </a>
-              <a class="btn btn-common" onclick="myFunction('04')">
+              <a class="btn btn-common" onclick="myFunction('4')">
                 Solar Energy 
               </a>
-              <a class="btn btn-common" onclick="myFunction('05')">
+              <a class="btn btn-common" onclick="myFunction('5')">
                 Utility Projects Based on Design & Simulation 
               </a>
-              <a class="btn btn-common" onclick="myFunction('06')">
+              <a class="btn btn-common" onclick="myFunction('6')">
                 Mechanical Engine Vs Human Engine 
               </a>
-              <a class="btn btn-common" onclick="myFunction('07')">
+              <a class="btn btn-common" onclick="myFunction('7')">
                 CAD Designing 
               </a>
-              <a class="btn btn-common" onclick="myFunction('08')">
+              <a class="btn btn-common" onclick="myFunction('8')">
                 Advanced Manufacturing & 3D Printing  
               </a>
               <a class="btn btn-common" onclick="myFunction('10')">
@@ -254,522 +255,83 @@ document.getElementById('12').style.display = "none";
 
           <!-- Portfolio Recent Projects -->
 		  
-          <div id="portfolio" class="row">
+          <div id="portfolio" class="row">		  
 		  
-		  <!-- 
-          <div class="col-lg-4 col-md-6 col-sm-6 mix design development" onclick="myFunction('01')">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<table> <tr>
-					<th><div class="icon">
-						<i class="lnr lnr-laptop"></i>
-					</div></th>
-					<th>
-					<h6>Multi-storied Structure Designing  </h6>
-					<p></p></th>
-					</tr>
-				</table>
+          <div class="col-lg-12 col-md-12 col-sm-12 mix design development" id="1">
+            <div class="item-boxes wow fadeInDown" >
+				<img style="width: 100%;" src="img/courses/Banner-2.jpg" alt="">
             </div>
-          </div>	-->   
-		  <!-- Courrse 01 --><!-- 
-			<div class="text-center" id="01" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/Mr Shiv Kumar.jpg" alt="">
-				<h6><strong> Mr. Shiv Kumar S <br>(mentor)</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/Mr Sushil.jpg" alt="">
-				<h6><strong> Mr. Sushil . Y. Bhutada</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" >
-          <div class="col-lg-5 col-md-5 col-sm-5 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6>  Proper Designing of any structure resembles the resistance of structure against various loading conditions (wind action/ loading effect/ vibrational effect etc.) </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-6 col-md-6 col-sm-6 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> Students will apply the basic knowledge of mathematics in computing the sizes of the various structural units for stability parameters (foundation / beams/ columns etc.). It will help students to understand the concept of design parameters related with multi- stories structures. Concept design related to stability and safety of any construction structures will be understood.</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-5 col-md-5 col-sm-5 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6>1. Collection of domestic materials - thermocol / chart paper / match sticks or ice- cream stics/ fevicol/ marker / notebook for computation/ pencil / eraser/ scale. (*Note - 1.  Books needed - for applying loads on structure; 2. Weighing machine - for books weight checking)
-					<br>2. Rough Layout of Structural Units along with computation.
-					<br>3. Computation regarding sizes of various structural components associated with the building.
-					<br>4. Rough Layout - entire structure.</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-6 col-md-6 col-sm-6 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> 1.Layout / Designing / Preparation of Foundation - as per the mathematical computation done by student. { Materials -  thermocol / chart paper / match sticks or ice- cream stics/ fevicol/ marker}
-					<br>2. Layout / Designing / Preparation of Ground Floor to Third Floor- as per the mathematical computation done by student. { Materials -  thermocol / chart paper / match sticks or ice- cream stics/ fevicol/ marker}</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>
-		  <!-- Courrse 02 --><!-- 
-			<div class="col-lg-12 text-center" id="02" ><div class="col-lg-2 col-md-2 col-sm-5 mix">		
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/Mr Shiv Kumar.jpg" alt="">
-				<h6><strong> Mr. Shiv Kumar S <br>(mentor)</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/Mr Sushil.jpg" alt="">
-				<h6><strong> Mr. Sushil . Y. Bhutada</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6>  Proper Designing of any structure resembles the resistance of structure against various loading conditions (wind action/ loading effect/ vibrational effect etc.) </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> Students will apply the basic knowledge of mathematics in computing the sizes of the various structural units for stability parameters (foundation / beams/ columns etc.). It will help students to understand the concept of design parameters related with multi- stories structures. Concept design related to stability and safety of any construction structures will be understood.</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6>1. Collection of domestic materials - thermocol / chart paper / match sticks or ice- cream stics/ fevicol/ marker / notebook for computation/ pencil / eraser/ scale. (*Note - 1.  Books needed - for applying loads on structure; 2. Weighing machine - for books weight checking)
-					<br>2. Rough Layout of Structural Units along with computation.
-					<br>3. Computation regarding sizes of various structural components associated with the building.
-					<br>4. Rough Layout - entire structure.</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> 1.Layout / Designing / Preparation of Foundation - as per the mathematical computation done by student. { Materials -  thermocol / chart paper / match sticks or ice- cream stics/ fevicol/ marker}
-					<br>2. Layout / Designing / Preparation of Ground Floor to Third Floor- as per the mathematical computation done by student. { Materials -  thermocol / chart paper / match sticks or ice- cream stics/ fevicol/ marker}</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 03 --><!-- 
-			<div class="col-lg-12 text-center" id="03" ><div class="col-lg-2 col-md-2 col-sm-5 mix">		
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/Mr Shiv Kumar.jpg" alt="">
-				<h6><strong> Mr. Shiv Kumar S <br>(mentor)</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/Mr Sushil.jpg" alt="">
-				<h6><strong> Mr. Sushil . Y. Bhutada</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6>  Proper Designing of any structure resembles the resistance of structure against various loading conditions (wind action/ loading effect/ vibrational effect etc.) </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> Students will apply the basic knowledge of mathematics in computing the sizes of the various structural units for stability parameters (foundation / beams/ columns etc.). It will help students to understand the concept of design parameters related with multi- stories structures. Concept design related to stability and safety of any construction structures will be understood.</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6>1. Collection of domestic materials - thermocol / chart paper / match sticks or ice- cream stics/ fevicol/ marker / notebook for computation/ pencil / eraser/ scale. (*Note - 1.  Books needed - for applying loads on structure; 2. Weighing machine - for books weight checking)
-					<br>2. Rough Layout of Structural Units along with computation.
-					<br>3. Computation regarding sizes of various structural components associated with the building.
-					<br>4. Rough Layout - entire structure.</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> 1.Layout / Designing / Preparation of Foundation - as per the mathematical computation done by student. { Materials -  thermocol / chart paper / match sticks or ice- cream stics/ fevicol/ marker}
-					<br>2. Layout / Designing / Preparation of Ground Floor to Third Floor- as per the mathematical computation done by student. { Materials -  thermocol / chart paper / match sticks or ice- cream stics/ fevicol/ marker}</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 04 --><!-- 
-			<div class="col-lg-12 text-center" id="04" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6> des </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> WEEK 01 Content here</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6> week02 data</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> WEEK 02 Content here</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 05 --><!-- 
-			<div class="col-lg-12 text-center" id="05" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6> des </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> WEEK 01 Content here</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6> week02 data</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> WEEK 02 Content here</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 06 --><!-- 
-			<div class="col-lg-12 text-center" id="06" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6> des </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> WEEK 01 Content here</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6> week02 data</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> WEEK 02 Content here</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 07 --><!-- 
-			<div class="col-lg-12 text-center" id="07" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6> des </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> WEEK 01 Content here</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6> week02 data</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> WEEK 02 Content here</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 08 --><!-- 
-			<div class="col-lg-12 text-center" id="08" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6> des </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> WEEK 01 Content here</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6> week02 data</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> WEEK 02 Content here</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 09 --><!-- 
-			<div class="col-lg-12 text-center" id="09" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6> des </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> WEEK 01 Content here</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6> week02 data</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> WEEK 02 Content here</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 10 --><!-- 
-			<div class="col-lg-12 text-center" id="10" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6> des </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> WEEK 01 Content here</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6> week02 data</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> WEEK 02 Content here</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 11 --><!-- 
-			<div class="col-lg-12 text-center" id="11" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6> des </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> WEEK 01 Content here</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6> week02 data</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> WEEK 02 Content here</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>		
-		  <!-- Courrse 12 --><!-- 
-			<div class="col-lg-12 text-center" id="12" ><div class="col-lg-2 col-md-2 col-sm-5 mix">	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div>	
-          <div class="col-lg-12 col-md-12 col-sm-12 mix">
-            <div class="single-team wow fadeInDown" data-wow-delay="0.8s">
-				<img style="width: 80%;" src="img/mentor/dummy.jpg" alt="">
-				<h6><strong> Sanjog Arora</strong></h6>
-            </div>
-		   </div></div>	<div  class="col-lg-9 col-md-9 col-sm-9 mix" style="height: 400px; vertical-align: top;">
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OBJECTIVE AND DETAILS</strong></h6>
-				<h6> des </h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix"  >
-            <div class="icon item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> OUTCOME OF COURSE</strong></h6>
-				<h6> WEEK 01 Content here</h6>
-            </div>
-		   </div><div>
-          <div class="col-lg-4 col-md-4 col-sm-4 mix" >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 01</strong></h6>
-				<h6> week02 data</h6>
-            </div>
-		   </div>	
-          <div class="col-lg-4 col-md-4 col-sm-4 mix " >
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-				<h6><strong> WEEK 02</strong></h6>
-				<h6> WEEK 02 Content here</h6>
-            </div>
-		   </div></div>
-			</div>
-			</div>				
-		  
           </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 mix design development" id="2">
+            <div class="item-boxes wow fadeInDown" >
+				<img style="width: 100%;" src="img/courses/Banner-2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 mix design development" id="3">
+            <div class="item-boxes wow fadeInDown" >
+				<img style="width: 100%;" src="img/courses/Banner-2.jpg" alt="">
+            </div>
+          </div>
+		  
+		  </div>
         </div>
       </div>
 	  
       <!-- Container Ends -->
     </section>
-    <!-- Portfolio Section Ends --> 
+    <!-- Portfolio / Course Section Ends --> 
+
+
+    <!-- Blog / Guideline Section -->
+    <section id="blog" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title" style="font-size: 2.5em; text-align: center;">Guidelines for students for Anand Summer School</h2>
+          <hr class="lines">  
+			<ul class="custom" >			
+			<li>Anand Summer School will commence from July 05, 2021 onwards. 
+			</li><li>Mode of Participant will be online. 
+			</li><li>Kindly fill all the details carefully. 
+			</li><li>All the students from classes 10<sup>th</sup> to 12<sup>th</sup> (All streams) 
+					irrespective of any state/Board across India can enroll for Anand Summer School. 
+			</li><li>70% of attendance is mandatory, based on attendance E-certificates and award will be provided to participants. 
+			</li><li>There are 12 courses available out of which participants can choose any 02 courses maximum. 
+			</li><li>These courses will enhance your skills and it will enrich your perspective areas as well. 
+			</li><li>The Registration fees of each course is Rs-50/-.  
+			</li><li>Last date of Registration date is July 03, 2021. 
+			</li><li>All important and related information will be updated on the website time to time. 
+			</li><li>There will be one best performer award in each course category. E-Certification for all the participants.
+			</li><li style="list-style-type: none; color:#2b5bb5;"><br><strong> Wishing you a very happy learning! </strong> 
+			</li><li style="list-style-type: none; color:#2b5bb5;"><strong> For more details, please feel free contact us on 9829276707, 9799820999 and 9352766165</strong>  
+			</li>
+		  </ul>
+		  </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog Section End -->
+
+    <!-- Features / Registration Section Start -->
+    <section id="features" class="section" data-stellar-background-ratio="0.2">
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title">Registration</h2>
+          <hr class="lines">
+          <p class="section-subtitle">Join online summer school to learn something new and to upgrade your skills</p>
+			<h2 style="font-size: 1.5em; text-align: center;">Register Yourself by Filling the Form Below</h2>
+		</div>
+        <div >						
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWKB9ufzLke5LE9wWPgWxH_BcLTKLj415lNebdPr_P4_WFOw/viewform?embedded=true" width="100%" height="300px" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
+			
+        </div>
+        <div class="section-header">  
+			<br><h2  style="font-size: 1.5em; text-align: center;">If above form is not visible then <a href="https://docs.google.com/forms/d/e/1FAIpQLScWKB9ufzLke5LE9wWPgWxH_BcLTKLj415lNebdPr_P4_WFOw/viewform" target="_blank">CLICK HERE</a>  to fill registration form</h2>
+		</div>
+      </div>
+    </section>
+    <!-- Features Section End -->    
+
 
     <!-- Start Video promo Section -->
     <section id="pricing" class="video-promo section">
@@ -807,7 +369,7 @@ document.getElementById('12').style.display = "none";
               <h4><br>Anand College Brochure-Degree</h4><p>Coming Soon</p>
               <p></p>
             </div>
-          </div>
+          </div><!--
           <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
               <div >
@@ -826,7 +388,7 @@ document.getElementById('12').style.display = "none";
               <p></p>
             </div>
           </div>
-        </div>
+        </div>-->
 				
               </div>
           </div>
@@ -973,40 +535,11 @@ document.getElementById('12').style.display = "none";
     </div>
     <!-- testimonial Section Start -->
 
-    <!-- Blog Section -->
-    <section id="blog" class="section">
-      <!-- Container Starts -->
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title" style="font-size: 2.5em; text-align: center;">Guidelines for students for Anand Summer School</h2>
-          <hr class="lines">  
-			<ul class="custom" >			
-			<li>Anand Summer School will commence from July 05, 2021 onwards. 
-			</li><li>Mode of Participant will be online. 
-			</li><li>Kindly fill all the details carefully. 
-			</li><li>All the students from classes 10<sup>th</sup> to 12<sup>th</sup> across (11<sup>th</sup> and 12<sup>th</sup> only science background) 
-					irrespective of any state/Board across India can enroll for Anand Summer School. 
-			</li><li>70% of attendance is mandatory, based on attendance E-certificates and award will be provided to participants. 
-			</li><li>There are 12 courses available out of which participants can choose any 02 courses maximum. 
-			</li><li>These courses will enhance your skills and it will enrich your perspective areas as well. 
-			</li><li>The Registration fees of each course is Rs-50/. In case you are interested in two courses the charge will be Rs-75/. 
-			</li><li>Last date of Registration date is July 03, 2021. 
-			</li><li>All important and related information will be updated on the website time to time. 
-			</li><li>There will be 01 best performer award in each course category. E-Certification for all the participants.
-			</li><li style="list-style-type: none; color:#2b5bb5;"><br><strong> Wishing you a very happy learning! </strong> 
-			</li><li style="list-style-type: none; color:#2b5bb5;"><strong> For more details, please feel free contact us on 9829276707, 9799820999 and 9352766165</strong>  
-			</li>
-		  </ul>
-		  </div>
-        </div>
-      </div>
-    </section>
-    <!-- blog Section End -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="section" data-stellar-background-ratio="-0.2">      
       <div class="contact-form">
-        <div class="container  text-center"><h3>Contact With us </h3>
+        <div class="container  text-center"><h3>Contact Us </h3>
           <div class="row">   
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div class="contact-block text-center">
@@ -1087,10 +620,10 @@ document.getElementById('12').style.display = "none";
     <script src="js/jquery.magnific-popup.min.js"></script>    
     <script src="js/waypoints.min.js"></script>     
     <script src="js/main.js"></script>
-	<!-- <script>
-	window.onload=happycode ;
+	<script>
+	window.onload=myFunction;
 	</script>
-    <script src="js/form-validator.min.js"></script>
+    <!-- <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script> --> 
 
   </body>
